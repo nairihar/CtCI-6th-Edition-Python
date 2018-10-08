@@ -1,3 +1,5 @@
+# First solution
+
 def oneAway(str, changed_str):
   r = False
   d = False
@@ -64,3 +66,5 @@ print(oneAway('pale', 'mkale'))
 print(oneAway('pale', 'bale'))
 
 print(oneAway('pale', 'bake'))
+
+# TODO :: add solution which will check all three cases in one loop
