@@ -25,4 +25,3 @@ class Node:
   
   def setPrev(self, prev_node):
     self.prev = prev_node
-  
