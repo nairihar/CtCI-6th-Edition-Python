@@ -2,6 +2,7 @@ class Node:
   def __init__(self, value):
     self.value = value
     self.next = None
+    self.prev = None
   
   def connect(self, value):
     new_node = Node(value)
@@ -13,6 +14,9 @@ class Node:
 
   def getValue(self):
     return self.value
+  
+  def setValue(self, value):
+    self.value = value
 
   def getNext(self):
     return self.next
