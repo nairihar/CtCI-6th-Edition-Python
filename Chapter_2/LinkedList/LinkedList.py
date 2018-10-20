@@ -1,7 +1,7 @@
-from LinkedListNode import LinkedListNode
+from .LinkedListNode import LinkedListNode
 
 class LinkedList:
-  def __init__(self, values):
+  def __init__(self, values=[]):
     self.head = None
     self.tail = None
 
