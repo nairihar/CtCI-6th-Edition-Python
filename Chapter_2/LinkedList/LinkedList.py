@@ -15,7 +15,6 @@ class LinkedList:
       current = current.next
   
   def __str__(self):
-    current = self.head
     values = [str(x) for x in self]
 
     return '-->'.join(values)
