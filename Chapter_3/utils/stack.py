@@ -27,4 +27,3 @@ class Stack:
   
   def getFullArray(self):
     return self.stack
-
